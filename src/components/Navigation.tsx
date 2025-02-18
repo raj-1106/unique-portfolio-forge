@@ -5,7 +5,7 @@ const Navigation = () => {
   const location = useLocation();
   
   const links = [
-    { name: "Work", path: "/work" },
+    { name: "About me", path: "/work" },
     { name: "Webflow", path: "/webflow" },
     { name: "Favorites", path: "/favorites" },
     { name: "Social", path: "/social" }
