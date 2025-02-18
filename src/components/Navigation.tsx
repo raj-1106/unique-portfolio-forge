@@ -6,8 +6,8 @@ const Navigation = () => {
   
   const links = [
     { name: "About me", path: "/work" },
-    { name: "Webflow", path: "/webflow" },
-    { name: "Favorites", path: "/favorites" },
+    { name: "Work Experience", path: "/webflow" },
+    { name: "Projects", path: "/favorites" },
     { name: "Social", path: "/social" }
   ];
 
