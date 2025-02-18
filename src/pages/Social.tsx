@@ -14,15 +14,15 @@ const Social = () => {
     },
     {
       platform: "GitHub",
-      link: "https://github.com/yourusername",
-      username: "@yourusername",
+      link: "https://github.com/raj-1106",
+      username: "@raj-1106",
       icon: Github,
       color: "text-gray-800",
       bgColor: "bg-gray-50"
     },
     {
       platform: "LinkedIn",
-      link: "https://linkedin.com/in/yourusername",
+      link: "https://www.linkedin.com/in/raj-lathigra-483089192",
       username: "Raj Lathigra",
       icon: Linkedin,
       color: "text-blue-600",
@@ -30,8 +30,8 @@ const Social = () => {
     },
     {
       platform: "Twitter",
-      link: "https://twitter.com/yourusername",
-      username: "@yourusername",
+      link: "https://x.com/LathigraRaj",
+      username: "@LathigraRaj",
       icon: Twitter,
       color: "text-sky-500",
       bgColor: "bg-sky-50"
