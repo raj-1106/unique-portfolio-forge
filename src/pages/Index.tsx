@@ -1,48 +1,103 @@
 
 import Navigation from "../components/Navigation";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen p-8">
       <Navigation />
       
-      <main className="window">
-        <div className="window-title">
-          <span>Welcome</span>
-        </div>
-        <div className="p-8 space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-4">
-              <div className="inline-block px-3 py-1 text-sm bg-retro-mint text-retro-dark rounded">
-                Hello, I'm a Blockchain Developer
-              </div>
-              <h1 className="text-4xl font-display">
-                Building Decentralized Solutions
-              </h1>
-              <p className="text-retro-gray">
-                Specializing in blockchain development, smart contracts, and decentralized applications
-                that push the boundaries of Web3 technology.
-              </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div className="space-y-6">
+          <div className="space-y-4">
+            <h1 className="text-5xl font-display leading-tight">
+              Hi There!{" "}
+              <span className="animate-wave inline-block">👋</span>
+              <br />
+              I'm <span className="text-retro-blue">Raj Lathigra</span>
+            </h1>
+            <p className="text-xl text-retro-gray">
+              A passionate Blockchain Developer specializing in Web3 technologies and decentralized solutions
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <span className="text-retro-blue">🎓</span>
+              <p>B.Tech in Information Technology</p>
             </div>
-            <div className="window bg-retro-blue/10 p-6">
-              <pre className="font-mono text-sm text-retro-blue">
-{`// Quick Info
-const developer = {
+            <div className="flex items-center gap-2">
+              <span className="text-retro-blue">💼</span>
+              <p>Open for opportunities</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+              <Github className="w-6 h-6" />
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+              <Linkedin className="w-6 h-6" />
+            </a>
+            <a href="mailto:rlathigra11@gmail.com"
+               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+              <Mail className="w-6 h-6" />
+            </a>
+          </div>
+        </div>
+
+        <div className="window bg-retro-blue/5 p-6">
+          <pre className="font-mono text-sm text-retro-blue overflow-x-auto">
+{`const aboutMe = {
   name: "Raj Lathigra",
+  role: "Blockchain Developer",
   location: "India",
   skills: [
     "Solidity",
+    "Smart Contracts",
+    "Web3.js",
     "React",
     "Node.js",
-    "Web3"
+    "Hardhat",
+    "IPFS"
   ],
-  education: "B.Tech Information Technology"
+  interests: [
+    "DeFi",
+    "NFTs",
+    "Decentralized Systems",
+    "Web3 Development"
+  ]
 };`}
-              </pre>
+          </pre>
+        </div>
+
+        <div className="md:col-span-2 space-y-6 mt-8">
+          <h2 className="text-3xl font-display">Professional Overview</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="window bg-retro-blue/5 p-6">
+              <h3 className="text-xl font-display mb-4 text-retro-blue">Technical Skills</h3>
+              <div className="flex flex-wrap gap-2">
+                {["Solidity", "React", "Node.js", "Web3.js", "Hardhat", "IPFS", "TypeScript", "Smart Contracts"].map((skill) => (
+                  <span key={skill} className="px-3 py-1 bg-retro-mint text-retro-dark rounded-full text-sm">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="window bg-retro-blue/5 p-6">
+              <h3 className="text-xl font-display mb-4 text-retro-blue">Blockchain Expertise</h3>
+              <ul className="list-disc list-inside space-y-2 text-retro-dark">
+                <li>Smart Contract Development</li>
+                <li>DeFi Protocol Integration</li>
+                <li>NFT Development</li>
+                <li>Web3 Integration</li>
+              </ul>
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 };
