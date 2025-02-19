@@ -48,34 +48,6 @@ const Work = () => {
     <div className="min-h-screen p-8">
       <Navigation />
       <div className="space-y-8">
-        {/* Projects Section */}
-        <div className="window">
-          <div className="window-title">
-            <span>Projects</span>
-          </div>
-          <div className="p-8">
-            <h2 className="text-3xl font-display mb-6">Featured Projects</h2>
-            <div className="space-y-8">
-              {projects.map((project, index) => (
-                <div key={index} className="window bg-retro-blue/5 p-6">
-                  <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-xl font-display text-retro-blue">{project.title}</h3>
-                    <span className="text-sm text-retro-gray">{project.date}</span>
-                  </div>
-                  <p className="mb-4 text-retro-dark">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tech, techIndex) => (
-                      <span key={techIndex} className="px-2 py-1 text-sm bg-retro-mint text-retro-dark rounded">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
         {/* Experience Section */}
         <div className="window">
           <div className="window-title">
@@ -98,6 +70,34 @@ const Work = () => {
                       <li key={achIndex} className="text-retro-dark">{achievement}</li>
                     ))}
                   </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Projects Section */}
+        <div className="window">
+          <div className="window-title">
+            <span>Projects</span>
+          </div>
+          <div className="p-8">
+            <h2 className="text-3xl font-display mb-6">Featured Projects</h2>
+            <div className="space-y-8">
+              {projects.map((project, index) => (
+                <div key={index} className="window bg-retro-blue/5 p-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-display text-retro-blue">{project.title}</h3>
+                    <span className="text-sm text-retro-gray">{project.date}</span>
+                  </div>
+                  <p className="mb-4 text-retro-dark">{project.description}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {project.tech.map((tech, techIndex) => (
+                      <span key={techIndex} className="px-2 py-1 text-sm bg-retro-mint text-retro-dark rounded">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
