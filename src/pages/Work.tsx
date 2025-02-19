@@ -13,7 +13,7 @@ const Work = () => {
       ]
     },
     {
-      company: "Sirechain",
+      company: "5irechain",
       role: "Business Development Executive Intern",
       period: "December 2024 - Present",
       achievements: [
