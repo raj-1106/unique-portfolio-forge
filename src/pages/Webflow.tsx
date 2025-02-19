@@ -5,32 +5,40 @@ import { ExternalLink } from "lucide-react";
 const Webflow = () => {
   const webflowProjects = [
     {
-      title: "Decentralized Finance (DeFi) Platform",
-      description: "A comprehensive DeFi platform interface built with Webflow, featuring intuitive navigation and real-time data visualization for token swaps and liquidity pools.",
-      features: ["Real-time Price Charts", "Wallet Integration", "Transaction History", "Staking Interface"],
+      title: "PINft",
+      description: "Built and deployed a dynamic NFT platform enabling users to represent verified attributes like qualifications, personal achievements, and social media profiles within their NFTs.",
+      features: [
+        "ERC-721 Smart Contracts",
+        "IPFS Integration",
+        "React Frontend",
+        "User Profile Management"
+      ],
       status: "Live",
-      link: "https://your-defi-platform.webflow.io"
+      link: "https://github.com/raj-1106/PINft"
     },
     {
-      title: "NFT Marketplace Template",
-      description: "A customizable NFT marketplace template designed to showcase digital art collections with smooth animations and filtered gallery views.",
-      features: ["NFT Gallery", "Artist Profiles", "Bidding System", "Collection Filters"],
+      title: "Decentralized File Storage",
+      description: "Developed a decentralized file storage system using IPFS, allowing users to securely store and share files in a distributed network.",
+      features: [
+        "IPFS Integration",
+        "File Management",
+        "Polygon Network",
+        "Smart Contracts"
+      ],
       status: "Live",
-      link: "https://your-nft-marketplace.webflow.io"
+      link: "https://github.com/raj-1106/DecentralizedFileStorage"
     },
     {
-      title: "Blockchain Education Hub",
-      description: "An educational platform focused on blockchain technology, featuring interactive learning modules and resource libraries.",
-      features: ["Course Library", "Progress Tracking", "Resource Center", "Community Forum"],
-      status: "In Development",
-      link: "https://blockchain-edu.webflow.io"
-    },
-    {
-      title: "Smart Contract Documentation",
-      description: "A documentation website template for smart contract developers, with syntax highlighting and interactive code examples.",
-      features: ["Code Snippets", "API Documentation", "Search Function", "Dark Mode"],
+      title: "Decentralized Exchange Platform",
+      description: "Created a DEX platform with secure token swaps and liquidity provision functionality, built on Uniswap V2 protocol.",
+      features: [
+        "Token Swaps",
+        "Liquidity Pools",
+        "Hardhat Testing",
+        "Smart Contracts"
+      ],
       status: "Live",
-      link: "https://smart-contract-docs.webflow.io"
+      link: "https://github.com/raj-1106/DEX"
     }
   ];
 
@@ -40,12 +48,12 @@ const Webflow = () => {
       <div className="space-y-8">
         <div className="window">
           <div className="window-title">
-            <span>Webflow</span>
+            <span>Projects</span>
           </div>
           <div className="p-8">
             <div className="text-center mb-8">
-              <h1 className="text-3xl font-display mb-4">Webflow Projects</h1>
-              <p className="text-retro-gray">Bridging Web3 functionality with modern design using Webflow</p>
+              <h1 className="text-3xl font-display mb-4">My Projects</h1>
+              <p className="text-retro-gray">A collection of my blockchain development projects</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -91,7 +99,7 @@ const Webflow = () => {
                 <div className="flex items-center gap-2">
                   <ExternalLink className="w-5 h-5 text-retro-blue" />
                   <p className="text-lg">
-                    Portfolio constantly updating with new projects
+                    Check out my GitHub for more projects
                   </p>
                 </div>
               </div>
