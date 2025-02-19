@@ -33,11 +33,11 @@ const Index = () => {
           </div>
 
           <div className="flex gap-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/raj-1106" target="_blank" rel="noopener noreferrer"
                className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/raj-lathigra-483089192" target="_blank" rel="noopener noreferrer"
                className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
