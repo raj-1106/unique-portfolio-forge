@@ -13,7 +13,7 @@ const Webflow = () => {
         "React Frontend",
         "User Profile Management"
       ],
-      status: "Live",
+      status: "Under Development",
       link: "https://github.com/raj-1106/PINfts"
     },
     {
@@ -26,7 +26,7 @@ const Webflow = () => {
         "Smart Contracts"
       ],
       status: "Live",
-      link: "https://github.com/raj-1106/DecentralizedFileStorage"
+      link: "https://decentralized-file-storage.vercel.app/"
     },
     {
       title: "Decentralized Exchange Platform",
@@ -37,7 +37,7 @@ const Webflow = () => {
         "Hardhat Testing",
         "Smart Contracts"
       ],
-      status: "Live",
+      status: "Under Development",
       link: "https://github.com/raj-1106/DEX"
     }
   ];
