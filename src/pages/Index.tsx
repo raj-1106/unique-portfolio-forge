@@ -83,7 +83,7 @@ const Index = () => {
             <div className="window bg-retro-blue/5 p-6">
               <h3 className="text-xl font-display mb-4 text-retro-blue">Technical Skills</h3>
               <div className="flex flex-wrap gap-2">
-                {["Solidity", "React", "Node.js", "Web3.js", "Hardhat", "IPFS", "TypeScript", "Smart Contracts"].map((skill) => (
+                {["Solidity", "React", "Node.js", "Web3.js", "Hardhat", "IPFS", "TypeScript", "Smart Contracts", "Python", "Mongo DB", "HTML", "CSS", "Render", "Vercel", "Git", "Postman", "Express", "Javascript", "C/C++"].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-retro-mint text-retro-dark rounded-full text-sm">
                     {skill}
                   </span>
