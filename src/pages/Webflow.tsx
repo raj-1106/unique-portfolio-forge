@@ -98,9 +98,14 @@ const Webflow = () => {
               <div className="window bg-retro-blue/5 p-6 inline-block">
                 <div className="flex items-center gap-2">
                   <ExternalLink className="w-5 h-5 text-retro-blue" />
-                  <p className="text-lg">
+                  <a 
+                    href="https://github.com/raj-1106" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-lg text-retro-blue hover:underline"
+                  >
                     Check out my GitHub for more projects
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
