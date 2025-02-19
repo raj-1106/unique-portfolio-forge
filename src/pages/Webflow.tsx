@@ -99,7 +99,7 @@ const Webflow = () => {
                 <div className="flex items-center gap-2">
                   <ExternalLink className="w-5 h-5 text-retro-blue" />
                   <a 
-                    href="https://github.com/raj-1106" 
+                    href="https://github.com/raj-1106?tab=repositories" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="text-lg text-retro-blue hover:underline"
