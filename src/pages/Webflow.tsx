@@ -14,7 +14,7 @@ const Webflow = () => {
         "User Profile Management"
       ],
       status: "Live",
-      link: "https://github.com/raj-1106/PINft"
+      link: "https://github.com/raj-1106/PINfts"
     },
     {
       title: "Decentralized File Storage",
