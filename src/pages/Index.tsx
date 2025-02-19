@@ -1,6 +1,6 @@
 
 import Navigation from "../components/Navigation";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 const Index = () => {
   return (
@@ -47,7 +47,7 @@ const Index = () => {
             </a>
             <a href="https://x.com/LathigraRaj" target="_blank" rel="noopener noreferrer"
                className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
-              <X className="w-6 h-6" />
+              <Twitter className="w-6 h-6" />
             </a>
           </div>
         </div>
