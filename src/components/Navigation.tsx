@@ -22,13 +22,13 @@ const Navigation = () => {
         <span>Portfolio Navigation</span>
         <div className="w-12" />
       </div>
-      <div className="flex items-center justify-between px-6 py-4">
-        <div className="flex items-center space-x-4">
+      <div className="p-4">
+        <div className="flex flex-wrap items-center justify-start gap-2 sm:gap-4">
           {links.map((link) => (
             <Link
               key={link.name}
               to={link.path}
-              className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
+              className={`nav-link text-sm sm:text-base ${location.pathname === link.path ? 'active' : ''}`}
             >
               {link.name}
             </Link>
