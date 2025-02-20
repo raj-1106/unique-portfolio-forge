@@ -1,6 +1,6 @@
 
 import Navigation from "../components/Navigation";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, FileText } from "lucide-react";
 
 const Index = () => {
   return (
@@ -32,7 +32,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4">
             <a href="https://github.com/raj-1106" target="_blank" rel="noopener noreferrer"
                className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
               <Github className="w-6 h-6" />
@@ -48,6 +48,15 @@ const Index = () => {
             <a href="https://x.com/LathigraRaj" target="_blank" rel="noopener noreferrer"
                className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
               <Twitter className="w-6 h-6" />
+            </a>
+            
+            {/* Resume Button */}
+            <a href="#" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="flex items-center gap-2 px-4 py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors">
+              <FileText className="w-5 h-5" />
+              <span>View Resume</span>
             </a>
           </div>
         </div>
