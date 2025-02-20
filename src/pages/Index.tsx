@@ -56,7 +56,7 @@ const Index = () => {
             </div>
             
             {/* Resume Button with updated link */}
-            <a href="/Raj_Lathigra_Resume.pdf" 
+            <a href="public/Raj_Lathigra_Resume (2).pdf" 
                target="_blank" 
                rel="noopener noreferrer"
                className="col-span-2 flex items-center justify-center sm:justify-start gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors text-sm md:text-base">
