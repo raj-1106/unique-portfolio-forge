@@ -32,29 +32,34 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3 md:gap-4">
-            <a href="https://github.com/raj-1106" target="_blank" rel="noopener noreferrer"
-               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
-              <Github className="w-5 h-5 md:w-6 md:h-6" />
-            </a>
-            <a href="https://www.linkedin.com/in/raj-lathigra-483089192" target="_blank" rel="noopener noreferrer"
-               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
-              <Linkedin className="w-5 h-5 md:w-6 md:h-6" />
-            </a>
-            <a href="mailto:rlathigra11@gmail.com"
-               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
-              <Mail className="w-5 h-5 md:w-6 md:h-6" />
-            </a>
-            <a href="https://x.com/LathigraRaj" target="_blank" rel="noopener noreferrer"
-               className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
-              <Twitter className="w-5 h-5 md:w-6 md:h-6" />
-            </a>
+          {/* Socials and Resume Button - Updated for better mobile layout */}
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 sm:gap-3 md:gap-4">
+            <div className="flex gap-2">
+              <a href="https://github.com/raj-1106" target="_blank" rel="noopener noreferrer"
+                 className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+                <Github className="w-5 h-5 md:w-6 md:h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/raj-lathigra-483089192" target="_blank" rel="noopener noreferrer"
+                 className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+                <Linkedin className="w-5 h-5 md:w-6 md:h-6" />
+              </a>
+            </div>
+            <div className="flex gap-2">
+              <a href="mailto:rlathigra11@gmail.com"
+                 className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+                <Mail className="w-5 h-5 md:w-6 md:h-6" />
+              </a>
+              <a href="https://x.com/LathigraRaj" target="_blank" rel="noopener noreferrer"
+                 className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+                <Twitter className="w-5 h-5 md:w-6 md:h-6" />
+              </a>
+            </div>
             
             {/* Resume Button with updated link */}
             <a href="/Raj_Lathigra_Resume.pdf" 
                target="_blank" 
                rel="noopener noreferrer"
-               className="flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors text-sm md:text-base">
+               className="col-span-2 flex items-center justify-center sm:justify-start gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors text-sm md:text-base">
               <FileText className="w-4 h-4 md:w-5 md:h-5" />
               <span>View Resume</span>
             </a>
