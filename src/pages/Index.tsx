@@ -50,8 +50,8 @@ const Index = () => {
               <Twitter className="w-5 h-5 md:w-6 md:h-6" />
             </a>
             
-            {/* Resume Button */}
-            <a href="#" 
+            {/* Resume Button with updated link */}
+            <a href="/Raj_Lathigra_Resume.pdf" 
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors text-sm md:text-base">
