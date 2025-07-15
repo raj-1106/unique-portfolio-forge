@@ -15,7 +15,7 @@ const Work = () => {
     {
       company: "5irechain",
       role: "Business Development Executive Intern",
-      period: "December 2024 - Present",
+      period: "December 2024 - March 2025",
       achievements: [
         "Analyzed and identified potential partnerships, securing new collaborations to enhance the Sirechain ecosystem's outreach and adoption.",
         "Conducted market research and competitive analysis, providing insights that shaped business strategy.",
