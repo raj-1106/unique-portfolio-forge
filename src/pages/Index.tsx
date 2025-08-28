@@ -78,12 +78,16 @@ const Index = () => {
   location: "India",
   skills: [
     "Solidity",
+    "Rust",
+    "Solana",
     "Smart Contracts",
     "Web3.js",
     "React",
     "Node.js",
     "Hardhat",
-    "IPFS"
+    "IPFS",
+    "EVM",
+    "SVM"
   ],
   interests: [
     "DeFi",
@@ -101,7 +105,7 @@ const Index = () => {
             <div className="window bg-retro-blue/5 p-4 md:p-6">
               <h3 className="text-lg md:text-xl font-display mb-3 md:mb-4 text-retro-blue">Technical Skills</h3>
               <div className="flex flex-wrap gap-1.5 md:gap-2">
-                {["Solidity", "React", "Node.js", "Web3.js", "Hardhat", "IPFS", "TypeScript", "Smart Contracts", "Python", "Mongo DB", "HTML", "CSS", "Render", "Vercel", "Git", "Postman", "Express", "Javascript", "C/C++"].map((skill) => (
+                {["Solidity", "React", "Node.js", "Web3.js", "Hardhat", "IPFS", "TypeScript", "Smart Contracts", "Python", "Mongo DB", "HTML", "CSS", "Render", "Vercel", "Git", "Postman", "Express", "Javascript", "C/C++", "Rust", "Anchor","Solana"].map((skill) => (
                   <span key={skill} className="px-2 md:px-3 py-0.5 md:py-1 bg-retro-mint text-retro-dark rounded-full text-xs md:text-sm">
                     {skill}
                   </span>
