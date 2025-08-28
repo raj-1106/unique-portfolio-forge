@@ -1,6 +1,6 @@
 
 import Navigation from "../components/Navigation";
-import { Github, Linkedin, Mail, Twitter, FileText } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, FileText, BookOpen } from "lucide-react";
 
 const Index = () => {
   return (
@@ -52,6 +52,10 @@ const Index = () => {
               <a href="https://x.com/LathigraRaj" target="_blank" rel="noopener noreferrer"
                  className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
                 <Twitter className="w-5 h-5 md:w-6 md:h-6" />
+              </a>
+              <a href="https://medium.com/@rajlathigra03" target="_blank" rel="noopener noreferrer"
+                 className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
+                <BookOpen className="w-5 h-5 md:w-6 md:h-6" />
               </a>
             </div>
             
