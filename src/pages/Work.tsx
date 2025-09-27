@@ -20,6 +20,17 @@ const Work = () => {
         "Analyzed and identified potential partnerships, securing new collaborations to enhance the Sirechain ecosystem's outreach and adoption.",
         "Conducted market research and competitive analysis, providing insights that shaped business strategy.",
       ]
+    },
+    {
+      company: "Freelance Developer",
+      role: "Blockchain Developer",
+      period: "April 2025 - Present",
+      achievements: [
+        "Assisted multiple projects in auditing, debugging, and enhancing Solidity smart contracts, improving reliability and security.",
+        "Contributed to NFT and DeFi initiatives by writing and refining smart contract logic, aligning with project-specific requirements.",
+        "Currently developing a full-stack decentralized application with a React/Node.js frontend and smart contract backend, showcasing end-to-end dApp development skills.",
+        "Collaborated directly with project teams and individual clients to deliver tailored blockchain solutions.",
+      ]
     }
   ];
 
