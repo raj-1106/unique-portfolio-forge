@@ -123,6 +123,16 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        <div className="md:col-span-2 space-y-4 md:space-y-6 mt-6 md:mt-8">
+          <h2 className="text-2xl md:text-3xl font-display">Achievements & Recognition</h2>
+          <div className="window bg-retro-blue/5 p-4 md:p-6">
+            <ul className="list-disc list-inside space-y-2 md:space-y-3 text-sm md:text-base text-retro-dark">
+              <li>Selected as <span className="font-bold text-retro-blue">Martian in BNB Chain program</span></li>
+              <li>Conducted seminar on <span className="font-bold text-retro-blue">"Starting with Blockchain"</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
