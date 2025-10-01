@@ -130,6 +130,7 @@ const Index = () => {
             <ul className="list-disc list-inside space-y-2 md:space-y-3 text-sm md:text-base text-retro-dark">
               <li>Selected as <span className="font-bold text-retro-blue">Martian in BNB Chain program</span></li>
               <li>Conducted seminar on <span className="font-bold text-retro-blue">"Starting with Blockchain"</span></li>
+              <li>Won <span className="font-bold text-retro-blue">"Best UI "</span> in <span className="font-bold text-retro-blue">"Hackvengers hackathon"</span></li>
             </ul>
           </div>
         </div>
