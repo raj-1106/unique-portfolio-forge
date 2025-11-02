@@ -5,28 +5,27 @@ import { ExternalLink } from "lucide-react";
 const Webflow = () => {
   const webflowProjects = [
     {
-      title: "PINft",
-      description: "Built and deployed a dynamic NFT platform enabling users to represent verified attributes like qualifications, personal achievements, and social media profiles within their NFTs.",
+      title: "RoomieSplit",
+      description: "Developed a full-stack web application to simplify expense and rent splitting among roommates with transparent tracking and automated settlement features.",
       features: [
-        "ERC-721 Smart Contracts",
-        "IPFS Integration",
-        "React Frontend",
-        "User Profile Management"
+        "On-chain Group Management",
+        "Smart Expense Tracking",
+        "Real-time Balances",
+        "Secure & Transparent"
       ],
       status: "Under Development",
-      link: "https://github.com/raj-1106/PINfts"
+      link: "https://github.com/raj-1106/RoomieSplit"
     },
     {
-      title: "Decentralized File Storage",
-      description: "Developed a decentralized file storage system using IPFS, allowing users to securely store and share files in a distributed network.",
+      title: "DataFetch Integration for Catoff",
+      description: "Built a secure data-fetching library integrated into Catoff’s platform to retrieve verified user statistics for community challenges and leaderboards.",
       features: [
-        "IPFS Integration",
-        "File Management",
-        "Polygon Network",
-        "Smart Contracts"
+        "Data Validation",
+        "Secure API Integration",
+        "User Data Management"
       ],
       status: "Live",
-      link: "https://decentralized-file-storage.vercel.app/"
+      link: "https://catoff-frontend-delta.vercel.app/"
     },
     {
       title: "Decentralized Exchange Platform",
