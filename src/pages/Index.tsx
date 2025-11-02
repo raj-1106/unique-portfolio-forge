@@ -60,7 +60,7 @@ const Index = () => {
             </div>
             
             {/* Resume Button with updated link */}
-            <a href="https://drive.google.com/file/d/1tGJYI2ZDdhvqqK-xGvLSiJ_RwwY7xBbk/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1QRu-EOFa7LlWbW3TNN2kEek5C72JBNxQ/view?usp=sharing" 
                target="_blank" 
                rel="noopener noreferrer"
                className="col-span-2 flex items-center justify-center sm:justify-start gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors text-sm md:text-base">
