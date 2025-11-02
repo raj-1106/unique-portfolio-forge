@@ -36,8 +36,8 @@ const Webflow = () => {
         "Hardhat Testing",
         "Smart Contracts"
       ],
-      status: "Under Development",
-      link: "https://github.com/raj-1106/DEX"
+      status: "Live",
+      link: "https://decentralizedexchange.netlify.app/"
     }
   ];
 
