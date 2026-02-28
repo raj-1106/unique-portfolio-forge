@@ -59,7 +59,7 @@ const Index = () => {
               </a>
             </div>
             
-            {/* Resume Button with updated link */}
+          
             <a href="https://drive.google.com/file/d/1xaNviI1GtPAYcJHtbeZkH_1rPF5HYS0c/view?usp=sharing" 
                target="_blank" 
                rel="noopener noreferrer"
