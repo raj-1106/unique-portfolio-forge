@@ -22,7 +22,7 @@ const Social = () => {
     },
     {
       platform: "LinkedIn",
-      link: "https://www.linkedin.com/in/raj-lathigra-483089192",
+      link: "https://www.linkedin.com/in/raj-lathigra/",
       username: "Raj Lathigra",
       icon: Linkedin,
       color: "text-blue-600",
