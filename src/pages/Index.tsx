@@ -39,7 +39,7 @@ const Index = () => {
                  className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
                 <Github className="w-5 h-5 md:w-6 md:h-6" />
               </a>
-              <a href="https://www.linkedin.com/in/raj-lathigra-483089192" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/raj-lathigra/" target="_blank" rel="noopener noreferrer"
                  className="p-2 bg-retro-blue/10 rounded hover:bg-retro-blue/20 transition-colors">
                 <Linkedin className="w-5 h-5 md:w-6 md:h-6" />
               </a>
