@@ -31,6 +31,17 @@ const Work = () => {
         "Currently developing a full-stack decentralized application with a React/Node.js frontend and smart contract backend, showcasing end-to-end dApp development skills.",
         "Collaborated directly with project teams and individual clients to deliver tailored blockchain solutions.",
       ]
+    },
+    {
+      company: "JadeQuest consulting pvt ltd",
+      role: "Fullstack Blockchain Developer",
+      period: "April 2026 - Present",
+      achievements: [
+        " Developing blockchain solutions using Hyperledger frameworks for enterprise use cases.",
+        "Designing smart contract logic and backend workflows for Hyperledger-based systems.",
+        " Working on TDR project end-to-end blockchain architecture including network setup, chaincode development, backend and integration.",
+        " TDR is a blockchain-based government portal that digitizes Transfer of Development Rights process using Hyperledger Fabric for immutable record-keeping, Ethereum for cross-chain verification, and OCR for automated certificate generation",
+      ]
     }
   ];
 
