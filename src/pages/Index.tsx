@@ -87,7 +87,9 @@ const Index = () => {
     "Hardhat",
     "IPFS",
     "EVM",
-    "SVM"
+    "SVM",
+    "Hyperledger",
+    "Go lang"
   ],
   interests: [
     "DeFi",
