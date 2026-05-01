@@ -60,7 +60,7 @@ const Index = () => {
             </div>
             
           
-            <a href="https://drive.google.com/file/d/1xaNviI1GtPAYcJHtbeZkH_1rPF5HYS0c/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1mrG53BkIz1UcwyepKclog3v2M-4xl8kp/view?usp=sharing" 
                target="_blank" 
                rel="noopener noreferrer"
                className="col-span-2 flex items-center justify-center sm:justify-start gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-retro-blue text-white rounded hover:bg-retro-blue/90 transition-colors text-sm md:text-base">
