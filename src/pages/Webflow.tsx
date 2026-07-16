@@ -13,7 +13,7 @@ const Webflow = () => {
         "Real-time Balances",
         "Secure & Transparent"
       ],
-      status: "Under Development",
+      status: "Live",
       link: "https://roomiesplit1.netlify.app"
     },
     {
