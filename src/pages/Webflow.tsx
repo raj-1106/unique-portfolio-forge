@@ -14,7 +14,7 @@ const Webflow = () => {
         "Secure & Transparent"
       ],
       status: "Under Development",
-      link: "https://github.com/raj-1106/RoomieSplit"
+      link: "https://roomiesplit1.netlify.app"
     },
     {
       title: "DataFetch Integration for Catoff",
